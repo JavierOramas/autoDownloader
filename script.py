@@ -47,7 +47,9 @@ def get_files():
            
     f.close()
     
+
 get_files()
+
 while(len(urls) > 0):
     time.sleep(1)
     get_files()
